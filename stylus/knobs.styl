@@ -1,0 +1,31 @@
+body .knobs {
+
+	&,
+	.tables {
+		display flex
+		flex-wrap wrap
+		justify-content space-around
+	}
+
+	.table {
+		padding 2rem 4rem
+
+		.row {
+			display grid
+			grid-template-columns 1fr 1fr 1fr 1fr 1fr 1fr
+
+			&:first-child {
+				border-bottom 1px solid #aaa
+			}
+
+			.col {
+				width 1.5em
+				text-align center
+
+				&:not(:last-child) {
+					border-right 1px solid #aaa
+				}
+			}
+		}
+	}
+}

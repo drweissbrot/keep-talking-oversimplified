@@ -1,0 +1,35 @@
+body .maze {
+	text-align center
+
+	.tables {
+		display flex
+		flex-wrap wrap
+		justify-content space-around
+	}
+
+	.table {
+		.row {
+			display grid
+			grid-template-columns 3rem 3rem 3rem 3rem 3rem 3rem 3rem
+			height 3rem
+			font-size 2rem
+			line-height 3rem
+		}
+
+		.col {
+			padding 0
+
+			height 3rem
+			border-right 1px solid transparent
+			border-bottom 1px solid transparent
+
+			&.right {
+				border-right-color #aaa
+			}
+
+			&.bottom {
+				border-bottom-color #aaa
+			}
+		}
+	}
+}
