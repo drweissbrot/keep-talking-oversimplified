@@ -1,0 +1,17 @@
+body .simon {
+	display flex
+	justify-content space-around
+
+	.table {
+		.row {
+			display grid
+			grid-template-columns 1fr 1fr 1fr 1fr 1fr
+		}
+
+		.col {
+			&:first-child {
+				text-align right
+			}
+		}
+	}
+}

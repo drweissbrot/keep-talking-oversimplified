@@ -1,0 +1,22 @@
+body .buttons {
+	display flex
+	justify-content space-around
+
+	.table {
+		&:first-child {
+			max-width 90rem
+
+			.row {
+				display grid
+				grid-template-columns 1fr 1fr 1fr 1fr 1fr
+			}
+		}
+
+		&:last-child {
+			.row {
+				display grid
+				grid-template-columns 1fr 1fr
+			}
+		}
+	}
+}

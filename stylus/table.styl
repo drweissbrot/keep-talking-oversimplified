@@ -1,0 +1,19 @@
+.table {
+	.row {
+		&:hover {
+			background rgba(#000, .25)
+		}
+
+		&.otherwise {
+			font-weight 700
+
+			.col:nth-last-child(2) {
+				text-align right
+			}
+		}
+	}
+
+	.col {
+		padding .25rem .5rem
+	}
+}

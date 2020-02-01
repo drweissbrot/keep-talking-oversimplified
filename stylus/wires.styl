@@ -1,0 +1,30 @@
+body .wires {
+	h3 {
+		margin 0
+	}
+
+	.sections {
+		display flex
+		justify-content space-around
+	}
+
+	section {
+		width 36rem
+		padding 1rem 2rem
+	}
+
+	.table {
+		.row {
+			display grid
+			grid-template-columns 1fr 1fr 1fr
+
+			&:not(:first-child) {
+				.col {
+					&:first-child {
+						text-align right
+					}
+				}
+			}
+		}
+	}
+}

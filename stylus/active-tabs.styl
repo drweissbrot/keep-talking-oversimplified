@@ -1,0 +1,30 @@
+tab($name) {
+	&:not(.{$name}) {
+		nav a[href={"'#" + $name + "'"}] {
+			background none
+		}
+
+		.section.{$name} {
+			display none
+		}
+	}
+}
+
+body {
+	tab('wires')
+	tab('buttons')
+	tab('symbols')
+	tab('simon')
+	tab('whos-on-first')
+	tab('memory')
+	tab('morse')
+	tab('complicated-wires')
+	tab('sequence')
+	tab('maze')
+	tab('password')
+	tab('knobs')
+
+	&:not(.intro) .intro {
+		display none
+	}
+}

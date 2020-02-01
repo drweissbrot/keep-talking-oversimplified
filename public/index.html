@@ -1,0 +1,1327 @@
+<!doctype html>
+<html lang="en-us" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>keep talking oversimplified</title>
+
+	<link rel="stylesheet" href="css/app.css">
+	<script src="js/app.js" defer async></script>
+</head>
+<body class="intro">
+	<nav>
+		<ul>
+			<li>
+				<a href="#wires">wires</a>
+			</li>
+
+			<li>
+				<a href="#buttons">buttons</a>
+			</li>
+
+			<li>
+				<a href="#symbols">symbols</a>
+			</li>
+
+			<li>
+				<a href="#simon">simon</a>
+			</li>
+
+			<li>
+				<a href="#whos-on-first">whos on first</a>
+			</li>
+
+			<li>
+				<a href="#memory">memory</a>
+			</li>
+
+			<li>
+				<a href="#morse">morse</a>
+			</li>
+
+			<li>
+				<a href="#complicated-wires">complicated wires</a>
+			</li>
+
+			<li>
+				<a href="#sequence">sequence</a>
+			</li>
+
+			<li>
+				<a href="#maze">maze</a>
+			</li>
+
+			<li>
+				<a href="#password">password</a>
+			</li>
+
+			<li>
+				<a href="#knobs">knobs (needy)</a>
+			</li>
+		</ul>
+	</nav>
+
+	<div class="intro">
+		<p>
+			Version 1
+		</p>
+
+		<p>
+			Verification Code: 241
+		</p>
+	</div>
+
+	<section class="section wires">
+		<h2>wires</h2>
+
+		<div class="sections">
+			<section>
+				<div class="table">
+					<div class="row bold">
+						<div class="col">
+							<h3>3 wires</h3>
+						</div>
+						<div class="col"></div>
+						<div class="col">cut</div>
+					</div>
+
+					<div class="row">
+						<div class="col"></div>
+						<div class="col red">0 red wires</div>
+						<div class="col">2</div>
+					</div>
+
+					<div class="row">
+						<div class="col"></div>
+						<div class="col white">3rd white</div>
+						<div class="col">3</div>
+					</div>
+
+					<div class="row otherwise">
+						<div class="col"></div>
+						<div class="col">otherwise</div>
+						<div class="col blue">last blue</div>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<div class="table">
+					<div class="row bold">
+						<div class="col">
+							<h3>4 wires</h3>
+						</div>
+						<div class="col"></div>
+						<div class="col">cut</div>
+					</div>
+
+					<div class="row">
+						<div class="col red">2+ red</div>
+						<div class="col">last digit odd</div>
+						<div class="col red">last red</div>
+					</div>
+
+					<div class="row">
+						<div class="col red">0 red</div>
+						<div class="col yellow">last is yellow</div>
+						<div class="col">1</div>
+					</div>
+
+					<div class="row">
+						<div class="col"></div>
+						<div class="col blue">1 blue</div>
+						<div class="col">1</div>
+					</div>
+
+					<div class="row">
+						<div class="col"></div>
+						<div class="col yellow">2+ yellow</div>
+						<div class="col">4</div>
+					</div>
+
+					<div class="row otherwise">
+						<div class="col"></div>
+						<div class="col">otherwise</div>
+						<div class="col">2</div>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<div class="table">
+					<div class="row bold">
+						<div class="col">
+							<h3>5 wires</h3>
+						</div>
+						<div class="col"></div>
+						<div class="col">cut</div>
+					</div>
+
+					<div class="row">
+						<div class="col black">last black</div>
+						<div class="col">last digit odd</div>
+						<div class="col">4</div>
+					</div>
+
+					<div class="row">
+						<div class="col red">1 red</div>
+						<div class="col yellow">2+ yellow</div>
+						<div class="col">1</div>
+					</div>
+
+					<div class="row">
+						<div class="col"></div>
+						<div class="col black">0 black</div>
+						<div class="col">2</div>
+					</div>
+
+					<div class="row">
+						<div class="col"></div>
+						<div class="col bold">otherwise</div>
+						<div class="col  otherwise">1</div>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<div class="table">
+					<div class="row bold">
+						<div class="col">
+							<h3>6 wires</h3>
+						</div>
+						<div class="col"></div>
+						<div class="col">cut</div>
+					</div>
+
+					<div class="row">
+						<div class="col yellow">0 yellow</div>
+						<div class="col">last digit odd</div>
+						<div class="col">4</div>
+					</div>
+
+					<div class="row">
+						<div class="col red">1 red</div>
+						<div class="col yellow">2+ yellow</div>
+						<div class="col">1</div>
+					</div>
+
+					<div class="row">
+						<div class="col"></div>
+						<div class="col black">0 black</div>
+						<div class="col">2</div>
+					</div>
+
+					<div class="row otherwise">
+						<div class="col"></div>
+						<div class="col">otherwise</div>
+						<div class="col">1</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</section>
+
+	<section class="section buttons">
+		<div class="table">
+			<div class="row bold">
+				<div class="col">color</div>
+				<div class="col">label</div>
+				<div class="col">batteries</div>
+				<div class="col">indicators</div>
+				<div class="col">action</div>
+			</div>
+
+			<div class="row">
+				<div class="col blue">blue</div>
+				<div class="col">abort</div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col">hold for color</div>
+			</div>
+
+			<div class="row">
+				<div class="col"></div>
+				<div class="col">detonate</div>
+				<div class="col">2+</div>
+				<div class="col"></div>
+				<div class="col">press and release</div>
+			</div>
+
+			<div class="row">
+				<div class="col white">white</div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col">car</div>
+				<div class="col">hold for color</div>
+			</div>
+
+			<div class="row">
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col">3+</div>
+				<div class="col">frk</div>
+				<div class="col">press and release</div>
+			</div>
+
+			<div class="row">
+				<div class="col yellow">yellow</div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col">hold for color</div>
+			</div>
+
+			<div class="row">
+				<div class="col red">red</div>
+				<div class="col">hold</div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col">press and release</div>
+			</div>
+
+			<div class="row otherwise">
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col">otherwise</div>
+				<div class="col">hold for color</div>
+			</div>
+		</div>
+
+		<div class="table">
+			<div class="row">
+				<div class="col">
+					<h3>hold for color</h3>
+				</div>
+
+				<div class="col"></div>
+			</div>
+
+			<div class="row">
+				<div class="col blue">blue</div>
+				<div class="col">4</div>
+			</div>
+
+			<div class="row">
+				<div class="col yellow">yellow</div>
+				<div class="col">5</div>
+			</div>
+
+			<div class="row otherwise">
+				<div class="col">otherwise</div>
+				<div class="col">1</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section symbols">
+		symbols
+	</section>
+
+	<section class="section simon">
+		<div class="table">
+			<div class="row">
+				<div class="col">
+					<h3>vowel</h3>
+				</div>
+			</div>
+
+			<div class="row bold">
+				<div class="col">strikes</div>
+				<div class="col red">red</div>
+				<div class="col blue">blue</div>
+				<div class="col green">green</div>
+				<div class="col yellow">yellow</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">0</div>
+				<div class="col blue">blue</div>
+				<div class="col red">red</div>
+				<div class="col yellow">yellow</div>
+				<div class="col green">green</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">1</div>
+				<div class="col yellow">yellow</div>
+				<div class="col green">green</div>
+				<div class="col blue">blue</div>
+				<div class="col red">red</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">2</div>
+				<div class="col green">green</div>
+				<div class="col red">red</div>
+				<div class="col yellow">yellow</div>
+				<div class="col blue">blue</div>
+			</div>
+		</div>
+
+		<div class="table">
+			<div class="row">
+				<div class="col">
+					<h3>no vowel</h3>
+				</div>
+			</div>
+
+			<div class="row bold">
+				<div class="col">strikes</div>
+				<div class="col red">red</div>
+				<div class="col blue">blue</div>
+				<div class="col green">green</div>
+				<div class="col yellow">yellow</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">0</div>
+				<div class="col blue">blue</div>
+				<div class="col yellow">yellow</div>
+				<div class="col green">green</div>
+				<div class="col red">red</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">1</div>
+				<div class="col red">red</div>
+				<div class="col blue">blue</div>
+				<div class="col yellow">yellow</div>
+				<div class="col green">green</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">2</div>
+				<div class="col yellow">yellow</div>
+				<div class="col green">green</div>
+				<div class="col blue">blue</div>
+				<div class="col red">red</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section whos-on-first">
+		<div class="table">
+			<div class="row">
+				<div class="col italic">(empty)</div>
+				<div class="col">↙</div>
+			</div>
+
+			<div class="row">
+				<div class="col">blank</div>
+				<div class="col">→</div>
+			</div>
+
+			<div class="row">
+				<div class="col">c</div>
+				<div class="col">↗</div>
+			</div>
+
+			<div class="row">
+				<div class="col">cee</div>
+				<div class="col">↘</div>
+			</div>
+
+			<div class="row">
+				<div class="col">display</div>
+				<div class="col">↘</div>
+			</div>
+
+			<div class="row">
+				<div class="col">first</div>
+				<div class="col">↗</div>
+			</div>
+
+			<div class="row">
+				<div class="col">hold on</div>
+				<div class="col">↘</div>
+			</div>
+
+			<div class="row">
+				<div class="col">lead</div>
+				<div class="col">↘</div>
+			</div>
+
+			<div class="row">
+				<div class="col">led</div>
+				<div class="col">←</div>
+			</div>
+
+			<div class="row">
+				<div class="col">leed</div>
+				<div class="col">↙</div>
+			</div>
+
+			<div class="row">
+				<div class="col">no</div>
+				<div class="col">↘</div>
+			</div>
+
+			<div class="row">
+				<div class="col">nothing</div>
+				<div class="col">←</div>
+			</div>
+
+			<div class="row">
+				<div class="col">okay</div>
+				<div class="col">↗</div>
+			</div>
+
+			<div class="row">
+				<div class="col">read</div>
+				<div class="col">→</div>
+			</div>
+
+			<div class="row">
+				<div class="col">red</div>
+				<div class="col">→</div>
+			</div>
+
+			<div class="row">
+				<div class="col">reed</div>
+				<div class="col">↙</div>
+			</div>
+
+			<div class="row">
+				<div class="col">says</div>
+				<div class="col">↘</div>
+			</div>
+
+			<div class="row">
+				<div class="col">see</div>
+				<div class="col">↘</div>
+			</div>
+
+			<div class="row">
+				<div class="col">their</div>
+				<div class="col">→</div>
+			</div>
+
+			<div class="row">
+				<div class="col">there</div>
+				<div class="col">↘</div>
+			</div>
+
+			<div class="row">
+				<div class="col">they are</div>
+				<div class="col">←</div>
+			</div>
+
+			<div class="row">
+				<div class="col">they're</div>
+				<div class="col">↙</div>
+			</div>
+
+			<div class="row">
+				<div class="col">ur</div>
+				<div class="col">↖</div>
+			</div>
+
+			<div class="row">
+				<div class="col">yes</div>
+				<div class="col">←</div>
+			</div>
+
+			<div class="row">
+				<div class="col">you</div>
+				<div class="col">→</div>
+			</div>
+
+			<div class="row">
+				<div class="col">you are</div>
+				<div class="col">↘</div>
+			</div>
+
+			<div class="row">
+				<div class="col">you're</div>
+				<div class="col">→</div>
+			</div>
+
+			<div class="row">
+				<div class="col">your</div>
+				<div class="col">→</div>
+			</div>
+		</div>
+
+		<div class="table">
+			<div class="row">
+				<div class="col bold">blank</div>
+				<div class="col">wait</div>
+				<div class="col">right</div>
+				<div class="col">okay</div>
+				<div class="col">middle</div>
+				<div class="col">blank</div>
+				<div class="col">press</div>
+				<div class="col">ready</div>
+				<div class="col">nothing</div>
+				<div class="col">no</div>
+				<div class="col">what</div>
+				<div class="col">left</div>
+				<div class="col">uhhh</div>
+				<div class="col">yes</div>
+				<div class="col">first</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">done</div>
+				<div class="col">sure</div>
+				<div class="col">uh huh</div>
+				<div class="col">next</div>
+				<div class="col">what?</div>
+				<div class="col">your</div>
+				<div class="col">ur</div>
+				<div class="col">you're</div>
+				<div class="col">hold</div>
+				<div class="col">like</div>
+				<div class="col">you</div>
+				<div class="col">u</div>
+				<div class="col">you are</div>
+				<div class="col">uh uh</div>
+				<div class="col">done</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">first</div>
+				<div class="col">left</div>
+				<div class="col">okay</div>
+				<div class="col">yes</div>
+				<div class="col">middle</div>
+				<div class="col">no</div>
+				<div class="col">right</div>
+				<div class="col">nothing</div>
+				<div class="col">uhhh</div>
+				<div class="col">wait</div>
+				<div class="col">ready</div>
+				<div class="col">blank</div>
+				<div class="col">what</div>
+				<div class="col">press</div>
+				<div class="col">first</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">hold</div>
+				<div class="col">you are</div>
+				<div class="col">u</div>
+				<div class="col">done</div>
+				<div class="col">uh uh</div>
+				<div class="col">you</div>
+				<div class="col">ur</div>
+				<div class="col">sure</div>
+				<div class="col">what?</div>
+				<div class="col">you're</div>
+				<div class="col">next</div>
+				<div class="col">hold</div>
+				<div class="col">uh huh</div>
+				<div class="col">your</div>
+				<div class="col">like</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">left</div>
+				<div class="col">right</div>
+				<div class="col">left</div>
+				<div class="col">first</div>
+				<div class="col">no</div>
+				<div class="col">middle</div>
+				<div class="col">yes</div>
+				<div class="col">blank</div>
+				<div class="col">what</div>
+				<div class="col">uhhh</div>
+				<div class="col">wait</div>
+				<div class="col">press</div>
+				<div class="col">ready</div>
+				<div class="col">okay</div>
+				<div class="col">nothing</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">like</div>
+				<div class="col">you're</div>
+				<div class="col">next</div>
+				<div class="col">u</div>
+				<div class="col">ur</div>
+				<div class="col">hold</div>
+				<div class="col">done</div>
+				<div class="col">uh uh</div>
+				<div class="col">what?</div>
+				<div class="col">uh huh</div>
+				<div class="col">you</div>
+				<div class="col">like</div>
+				<div class="col">sure</div>
+				<div class="col">you are</div>
+				<div class="col">your</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">middle</div>
+				<div class="col">blank</div>
+				<div class="col">ready</div>
+				<div class="col">okay</div>
+				<div class="col">what</div>
+				<div class="col">nothing</div>
+				<div class="col">press</div>
+				<div class="col">no</div>
+				<div class="col">wait</div>
+				<div class="col">left</div>
+				<div class="col">middle</div>
+				<div class="col">right</div>
+				<div class="col">first</div>
+				<div class="col">uhhh</div>
+				<div class="col">yes</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">next</div>
+				<div class="col">what?</div>
+				<div class="col">uh huh</div>
+				<div class="col">uh uh</div>
+				<div class="col">your</div>
+				<div class="col">hold</div>
+				<div class="col">sure</div>
+				<div class="col">next</div>
+				<div class="col">like</div>
+				<div class="col">done</div>
+				<div class="col">you are</div>
+				<div class="col">ur</div>
+				<div class="col">you're</div>
+				<div class="col">u</div>
+				<div class="col">you</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">no</div>
+				<div class="col">blank</div>
+				<div class="col">uhhh</div>
+				<div class="col">wait</div>
+				<div class="col">first</div>
+				<div class="col">what</div>
+				<div class="col">ready</div>
+				<div class="col">right</div>
+				<div class="col">yes</div>
+				<div class="col">nothing</div>
+				<div class="col">left</div>
+				<div class="col">press</div>
+				<div class="col">okay</div>
+				<div class="col">no</div>
+				<div class="col">middle</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">nothing</div>
+				<div class="col">uhhh</div>
+				<div class="col">right</div>
+				<div class="col">okay</div>
+				<div class="col">middle</div>
+				<div class="col">yes</div>
+				<div class="col">blank</div>
+				<div class="col">no</div>
+				<div class="col">press</div>
+				<div class="col">left</div>
+				<div class="col">what</div>
+				<div class="col">wait</div>
+				<div class="col">first</div>
+				<div class="col">nothing</div>
+				<div class="col">ready</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">okay</div>
+				<div class="col">middle</div>
+				<div class="col">no</div>
+				<div class="col">first</div>
+				<div class="col">yes</div>
+				<div class="col">uhhh</div>
+				<div class="col">nothing</div>
+				<div class="col">wait</div>
+				<div class="col">okay</div>
+				<div class="col">left</div>
+				<div class="col">ready</div>
+				<div class="col">blank</div>
+				<div class="col">press</div>
+				<div class="col">what</div>
+				<div class="col">right</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">press</div>
+				<div class="col">right</div>
+				<div class="col">middle</div>
+				<div class="col">yes</div>
+				<div class="col">ready</div>
+				<div class="col">press</div>
+				<div class="col">okay</div>
+				<div class="col">nothing</div>
+				<div class="col">uhhh</div>
+				<div class="col">blank</div>
+				<div class="col">left</div>
+				<div class="col">first</div>
+				<div class="col">what</div>
+				<div class="col">no</div>
+				<div class="col">wait</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">ready</div>
+				<div class="col">yes</div>
+				<div class="col">okay</div>
+				<div class="col">what</div>
+				<div class="col">middle</div>
+				<div class="col">left</div>
+				<div class="col">press</div>
+				<div class="col">right</div>
+				<div class="col">blank</div>
+				<div class="col">ready</div>
+				<div class="col">no</div>
+				<div class="col">first</div>
+				<div class="col">uhhh</div>
+				<div class="col">nothing</div>
+				<div class="col">wait</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">right</div>
+				<div class="col">yes</div>
+				<div class="col">nothing</div>
+				<div class="col">ready</div>
+				<div class="col">press</div>
+				<div class="col">no</div>
+				<div class="col">wait</div>
+				<div class="col">what</div>
+				<div class="col">right</div>
+				<div class="col">middle</div>
+				<div class="col">left</div>
+				<div class="col">uhhh</div>
+				<div class="col">blank</div>
+				<div class="col">okay</div>
+				<div class="col">first</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">sure</div>
+				<div class="col">you are</div>
+				<div class="col">done</div>
+				<div class="col">like</div>
+				<div class="col">you're</div>
+				<div class="col">you</div>
+				<div class="col">hold</div>
+				<div class="col">uh huh</div>
+				<div class="col">ur</div>
+				<div class="col">sure</div>
+				<div class="col">u</div>
+				<div class="col">what?</div>
+				<div class="col">next</div>
+				<div class="col">your</div>
+				<div class="col">uh uh</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">u</div>
+				<div class="col">uh huh</div>
+				<div class="col">sure</div>
+				<div class="col">next</div>
+				<div class="col">what?</div>
+				<div class="col">you're</div>
+				<div class="col">ur</div>
+				<div class="col">uh uh</div>
+				<div class="col">done</div>
+				<div class="col">u</div>
+				<div class="col">you</div>
+				<div class="col">like</div>
+				<div class="col">hold</div>
+				<div class="col">you are</div>
+				<div class="col">your</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">uh huh</div>
+				<div class="col">uh huh</div>
+				<div class="col">your</div>
+				<div class="col">you are</div>
+				<div class="col">you</div>
+				<div class="col">done</div>
+				<div class="col">hold</div>
+				<div class="col">uh uh</div>
+				<div class="col">next</div>
+				<div class="col">sure</div>
+				<div class="col">like</div>
+				<div class="col">you're</div>
+				<div class="col">ur</div>
+				<div class="col">u</div>
+				<div class="col">what?</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">uh uh</div>
+				<div class="col">ur</div>
+				<div class="col">u</div>
+				<div class="col">you are</div>
+				<div class="col">you're</div>
+				<div class="col">next</div>
+				<div class="col">uh uh</div>
+				<div class="col">done</div>
+				<div class="col">you</div>
+				<div class="col">uh huh</div>
+				<div class="col">like</div>
+				<div class="col">your</div>
+				<div class="col">sure</div>
+				<div class="col">hold</div>
+				<div class="col">what?</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">uhhh</div>
+				<div class="col">ready</div>
+				<div class="col">nothing</div>
+				<div class="col">left</div>
+				<div class="col">what</div>
+				<div class="col">okay</div>
+				<div class="col">yes</div>
+				<div class="col">right</div>
+				<div class="col">no</div>
+				<div class="col">press</div>
+				<div class="col">blank</div>
+				<div class="col">uhhh</div>
+				<div class="col">middle</div>
+				<div class="col">wait</div>
+				<div class="col">first</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">ur</div>
+				<div class="col">done</div>
+				<div class="col">u</div>
+				<div class="col">ur</div>
+				<div class="col">uh huh</div>
+				<div class="col">what?</div>
+				<div class="col">sure</div>
+				<div class="col">your</div>
+				<div class="col">hold</div>
+				<div class="col">you're</div>
+				<div class="col">like</div>
+				<div class="col">next</div>
+				<div class="col">uh uh</div>
+				<div class="col">you are</div>
+				<div class="col">you</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">wait</div>
+				<div class="col">uhhh</div>
+				<div class="col">no</div>
+				<div class="col">blank</div>
+				<div class="col">okay</div>
+				<div class="col">yes</div>
+				<div class="col">left</div>
+				<div class="col">first</div>
+				<div class="col">press</div>
+				<div class="col">what</div>
+				<div class="col">wait</div>
+				<div class="col">nothing</div>
+				<div class="col">ready</div>
+				<div class="col">right</div>
+				<div class="col">middle</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">what</div>
+				<div class="col">uhhh</div>
+				<div class="col">what</div>
+				<div class="col">left</div>
+				<div class="col">nothing</div>
+				<div class="col">ready</div>
+				<div class="col">blank</div>
+				<div class="col">middle</div>
+				<div class="col">no</div>
+				<div class="col">okay</div>
+				<div class="col">first</div>
+				<div class="col">wait</div>
+				<div class="col">yes</div>
+				<div class="col">press</div>
+				<div class="col">right</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">what?</div>
+				<div class="col">you</div>
+				<div class="col">hold</div>
+				<div class="col">you're</div>
+				<div class="col">your</div>
+				<div class="col">u</div>
+				<div class="col">done</div>
+				<div class="col">uh uh</div>
+				<div class="col">like</div>
+				<div class="col">you are</div>
+				<div class="col">uh huh</div>
+				<div class="col">ur</div>
+				<div class="col">next</div>
+				<div class="col">what?</div>
+				<div class="col">sure</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">yes</div>
+				<div class="col">okay</div>
+				<div class="col">right</div>
+				<div class="col">uhhh</div>
+				<div class="col">middle</div>
+				<div class="col">first</div>
+				<div class="col">what</div>
+				<div class="col">press</div>
+				<div class="col">ready</div>
+				<div class="col">nothing</div>
+				<div class="col">yes</div>
+				<div class="col">left</div>
+				<div class="col">blank</div>
+				<div class="col">no</div>
+				<div class="col">wait</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">you</div>
+				<div class="col">sure</div>
+				<div class="col">you are</div>
+				<div class="col">your</div>
+				<div class="col">you're</div>
+				<div class="col">next</div>
+				<div class="col">uh huh</div>
+				<div class="col">ur</div>
+				<div class="col">hold</div>
+				<div class="col">what?</div>
+				<div class="col">you</div>
+				<div class="col">uh uh</div>
+				<div class="col">like</div>
+				<div class="col">done</div>
+				<div class="col">u</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">you are</div>
+				<div class="col">your</div>
+				<div class="col">next</div>
+				<div class="col">like</div>
+				<div class="col">uh huh</div>
+				<div class="col">what?</div>
+				<div class="col">done</div>
+				<div class="col">uh uh</div>
+				<div class="col">hold</div>
+				<div class="col">you</div>
+				<div class="col">u</div>
+				<div class="col">you're</div>
+				<div class="col">sure</div>
+				<div class="col">ur</div>
+				<div class="col">you are</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">you're</div>
+				<div class="col">you</div>
+				<div class="col">you're</div>
+				<div class="col">ur</div>
+				<div class="col">next</div>
+				<div class="col">uh uh</div>
+				<div class="col">you are</div>
+				<div class="col">u</div>
+				<div class="col">your</div>
+				<div class="col">what?</div>
+				<div class="col">uh huh</div>
+				<div class="col">sure</div>
+				<div class="col">done</div>
+				<div class="col">like</div>
+				<div class="col">hold</div>
+			</div>
+
+			<div class="row">
+				<div class="col bold">your</div>
+				<div class="col">uh uh</div>
+				<div class="col">you are</div>
+				<div class="col">uh huh</div>
+				<div class="col">your</div>
+				<div class="col">next</div>
+				<div class="col">ur</div>
+				<div class="col">sure</div>
+				<div class="col">u</div>
+				<div class="col">you're</div>
+				<div class="col">you</div>
+				<div class="col">what?</div>
+				<div class="col">hold</div>
+				<div class="col">like</div>
+				<div class="col">done</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section memory">
+		<div class="table">
+			<h3>stage 1</h3>
+
+			<div class="row bold">
+				<div class="col">display</div>
+				<div class="col">position</div>
+				<div class="col">label</div>
+				<div class="col">same position as</div>
+				<div class="col">same label as</div>
+			</div>
+
+			<div class="row">
+				<div class="col">1</div>
+				<div class="col">2</div>
+			</div>
+
+			<div class="row">
+				<div class="col">2</div>
+				<div class="col">2</div>
+			</div>
+
+			<div class="row">
+				<div class="col">3</div>
+				<div class="col">3</div>
+			</div>
+
+			<div class="row">
+				<div class="col">4</div>
+				<div class="col">4</div>
+			</div>
+		</div>
+
+		<div class="table">
+			<h3>stage 2</h3>
+
+			<div class="row bold">
+				<div class="col">display</div>
+				<div class="col">position</div>
+				<div class="col">label</div>
+				<div class="col">same position as</div>
+				<div class="col">same label as</div>
+			</div>
+
+			<div class="row">
+				<div class="col">1</div>
+				<div class="col"></div>
+				<div class="col">4</div>
+			</div>
+
+			<div class="row">
+				<div class="col">2</div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col">1</div>
+			</div>
+
+			<div class="row">
+				<div class="col">3</div>
+				<div class="col">1</div>
+			</div>
+
+			<div class="row">
+				<div class="col">4</div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col">1</div>
+			</div>
+		</div>
+
+		<div class="table">
+			<h3>stage 3</h3>
+
+			<div class="row bold">
+				<div class="col">display</div>
+				<div class="col">position</div>
+				<div class="col">label</div>
+				<div class="col">same position as</div>
+				<div class="col">same label as</div>
+			</div>
+
+			<div class="row">
+				<div class="col">1</div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col">2</div>
+			</div>
+
+			<div class="row">
+				<div class="col">2</div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col">1</div>
+			</div>
+
+			<div class="row">
+				<div class="col">3</div>
+				<div class="col">3</div>
+			</div>
+
+			<div class="row">
+				<div class="col">4</div>
+				<div class="col"></div>
+				<div class="col">4</div>
+			</div>
+		</div>
+
+		<div class="table">
+			<h3>stage 4</h3>
+
+			<div class="row bold">
+				<div class="col">display</div>
+				<div class="col">position</div>
+				<div class="col">label</div>
+				<div class="col">same position as</div>
+				<div class="col">same label as</div>
+			</div>
+
+			<div class="row">
+				<div class="col">1</div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col">1</div>
+			</div>
+
+			<div class="row">
+				<div class="col">2</div>
+				<div class="col">1</div>
+			</div>
+
+			<div class="row">
+				<div class="col">3</div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col">2</div>
+			</div>
+
+			<div class="row">
+				<div class="col">4</div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col">2</div>
+			</div>
+		</div>
+
+		<div class="table">
+			<h3>stage 5</h3>
+
+			<div class="row bold">
+				<div class="col">display</div>
+				<div class="col">position</div>
+				<div class="col">label</div>
+				<div class="col">same position as</div>
+				<div class="col">same label as</div>
+			</div>
+
+			<div class="row">
+				<div class="col">1</div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col">1</div>
+			</div>
+
+			<div class="row">
+				<div class="col">2</div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col">2</div>
+			</div>
+
+			<div class="row">
+				<div class="col">3</div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col">4</div>
+			</div>
+
+			<div class="row">
+				<div class="col">4</div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col">3</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section morse">
+		morse
+	</section>
+
+	<section class="section complicated-wires">
+		complicated wires
+	</section>
+
+	<section class="section sequence">
+		sequence
+	</section>
+
+	<section class="section maze">
+		maze
+	</section>
+
+	<section class="section password mono">
+		<div class="table">
+			<div class="row">about</div>
+			<div class="row">after</div>
+			<div class="row">again</div>
+			<div class="row">below</div>
+			<div class="row">could</div>
+			<div class="row">every</div>
+			<div class="row">first</div>
+			<div class="row">found</div>
+			<div class="row">great</div>
+			<div class="row">house</div>
+			<div class="row">large</div>
+			<div class="row">learn</div>
+			<div class="row">never</div>
+			<div class="row">other</div>
+			<div class="row">place</div>
+			<div class="row">plant</div>
+			<div class="row">point</div>
+			<div class="row">right</div>
+			<div class="row">small</div>
+			<div class="row">sound</div>
+			<div class="row">spell</div>
+			<div class="row">still</div>
+			<div class="row">study</div>
+			<div class="row">their</div>
+			<div class="row">there</div>
+			<div class="row">these</div>
+			<div class="row">thing</div>
+			<div class="row">think</div>
+			<div class="row">three</div>
+			<div class="row">water</div>
+			<div class="row">where</div>
+			<div class="row">which</div>
+			<div class="row">world</div>
+			<div class="row">would</div>
+			<div class="row">write</div>
+		</div>
+	</section>
+
+	<section class="section knobs">
+		knobs
+	</section>
+
+	<div class="footer">
+		<h1>
+			<a href="#">keep talking oversimplified</a>
+		</h1>
+
+		<footer>
+			<p>
+				based on the original
+				<a href="http://bombmanual.com">Bomb Manual</a>
+			</p>
+
+			<p>
+				for the awesome game
+				<a href="https://keeptalkinggame.com">Keep Talking and Nobody Explodes</a>
+			</p>
+
+			<p>
+				no affiliation with Steel Crate Games (obviously)
+			</p>
+		</footer>
+	</div>
+</body>
+</html>
