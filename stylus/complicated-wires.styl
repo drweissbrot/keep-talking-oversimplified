@@ -1,0 +1,20 @@
+body .complicated-wires {
+	display flex
+	justify-content space-around
+
+	.table {
+		.row {
+			display grid
+		}
+	}
+
+	.table {
+		&:first-of-type .row {
+			grid-template-columns 1fr 1fr 1fr 1fr 1fr
+		}
+
+		&:last-of-type .row {
+			grid-template-columns 1fr 1fr
+		}
+	}
+}
