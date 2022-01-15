@@ -10,7 +10,7 @@
 	"devDependencies": {
 		"laravel-mix": "^6.0.16",
 		"normalize.css": "^8.0.1",
-		"postcss": "^8.2.10",
+		"postcss": "^8.2.13",
 		"stylus": "^0.54.8",
 		"stylus-loader": "^5.0.0"
 	}
